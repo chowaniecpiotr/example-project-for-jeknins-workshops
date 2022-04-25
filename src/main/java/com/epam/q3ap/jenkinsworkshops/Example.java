@@ -8,7 +8,12 @@ package com.epam.q3ap.jenkinsworkshops;
  * @author Marcin Ogorzalek
  */
 class Example {
-  public static void main(String[] args) {
-    System.out.println("Hello world");
-  }
+
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+
+        NewClass newClass = new NewClass();
+        newClass.newMethod();
+        newClass.printingGoodbye();
+    }
 }
